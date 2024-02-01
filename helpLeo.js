@@ -4,7 +4,6 @@ export function helpLeo(money, gifts){
 
     for(let i = 0; i < gifts.length; i++){
         totalSpent += gifts[i];
-
         if(totalSpent > money) {
             return i;
         }
