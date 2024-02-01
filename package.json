@@ -1,0 +1,21 @@
+{
+  "name": "learn-unit-tests",
+  "version": "1.0.0",
+  "description": "A project to learn unit testing",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha index.test.js"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "tutorial"
+  ],
+  "author": "Tokimahery Ramarozaka",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  }
+}
